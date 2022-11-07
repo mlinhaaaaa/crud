@@ -1,0 +1,11 @@
+<h1>Update User</h1>
+<form action="/update", method="POST">
+    Id : <input type="text" name="id" value="<%=Lop._id %>"><br>
+    Phone : <input type="text" name="phone" value="<%= Lop.phone %>"><br>
+    Password: <input type="text" name="password" value="<%= Lop.password %>"><br>
+    TypeRegister: <input type="text" name="typeRegister" value="<%= Lop.typeRegister %>"><br>
+    TokenLogin: <input type="text" name="tokenLogin" value="<%= Lop.tokenLogin %>"><br>
+    DeviceID: <input type="text" name="deviceID" value="<%= Lop.deviceID %>"><br>
+    FcmTokens: <input type="text" name="fcmTokens" value="<%= Lop.fcmTokens %>"><br>
+    <button type="submit"> update </button>
+</form>
