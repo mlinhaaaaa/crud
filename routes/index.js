@@ -20,13 +20,13 @@ let lopSchema = mongoose.Schema({
     type:String,
   },
   tokenLogin: {
-    type: Number,
+    type: String,
   },
   deviceID : {
-    type: Number,
+    type: String,
   },
   fcmTokens:{
-    type: Number,
+    type: String,
   }
 
 });
